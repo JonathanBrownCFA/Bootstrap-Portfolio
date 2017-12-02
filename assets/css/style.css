@@ -1,0 +1,58 @@
+/*General Styling*/
+.navbar-brand {
+	font-size: 24px;
+	font-weight: 300;
+}
+
+h1, h2, h3, p {
+	font-weight: 300;
+}
+
+/*Sidebar Images*/
+.col-xs-4 img {
+	height: 70px;
+	width: 70px;
+}
+
+/*About me*/
+#auth-image {
+	height: 250px;
+	width: 250px;
+	margin: 0px 10px 5px 0px;
+}
+
+/*Portfolio page*/
+.work {
+	position: relative;
+	width: 274px;
+	margin-bottom: 40px;
+	color: white;
+}
+
+.work img {
+	width: 100%;
+	border: 0 none;
+	opacity: 0.8;
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  line-height: 30px;
+  text-align: center;
+  background: #2f3e4e;
+  border-bottom: 0;
+}
+
+/*Contact*/
+input[type=message],
+textarea {
+  height: 200px;
+}
+
+#contact-form button {
+	margin-bottom: 20px;
+}
